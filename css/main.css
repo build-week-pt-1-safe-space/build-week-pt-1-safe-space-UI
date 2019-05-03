@@ -1,15 +1,18 @@
 
 body {
     padding-top: 80px;
-    overflow-x: hidden;
+		overflow-x: hidden;
+		font-family: 'Poppins', sans-serif;
   }
   @media (max-width: 979px) {
     body {
       padding-top: 50px;
     }
-  }
-
-
+	}
+	h1{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+	}
 .bg-main{ 
     background-color: #448AF1;
 }
@@ -23,12 +26,7 @@ body {
     padding: 50px;
     border-radius:5px;
     color: white;
-    width: 70%;
-}
-
-.top-img{ 
-    margin:30px;
-    
+		width: 70%;
 }
 
 .top-button{ 
@@ -51,11 +49,16 @@ h2{
 	height: 100%;
 	
 }
+
+
+.mid-content h5{
+	padding-top:50px;
+}
 .mid-content p{ 
 	height: 100%;
 	width:60%;
 	margin:0 auto;
-	padding-top: 50px;
+	
 }
 .jumbotron {
   background-image: url("../img/best-team-page.png");
@@ -77,141 +80,60 @@ h2{
 }
 
 .bottom-row{ 
-	margin-top:100px;
+	padding-top:30px;
 }
 
-/*footer*/
+.card-blog{
+	margin-top:50px;
+	height:600px;
+	font-size: 12px;
+}
 
 .footer-distributed{
-	background-color: #666666;
+	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 55px 50px;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
 	margin-top: 80px;
 }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left{
-	width: 40%;
-}
-
-/* The company logo */
-
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px;
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
 	margin: 0;
 }
 
-
 /* Footer links */
 
-.footer-distributed .footer-links{
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
 	color:  #ffffff;
-	margin: 20px 0 12px;
+	margin: 0 0 10px;
 	padding: 0;
 }
 
-.footer-distributed .footer-links a{
+.footer-distributed p.footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
 }
 
-.footer-distributed .footer-company-name{
-	color:  #8f9296;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-}
-
-/* Footer Center */
-
-.footer-distributed .footer-center{
-	width: 35%;
-}
-
-.footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-	vertical-align: middle;
-	margin:0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-}
-
-.footer-distributed .footer-center p a{
-	color:  #5383d3;
-	text-decoration: none;
-}
-
-
-/* Footer Right */
-
 .footer-distributed .footer-right{
-	width: 20%;
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
 }
 
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #92999f;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-}
-
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons{
-	margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
+.footer-distributed .footer-right a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	cursor: pointer;
 	background-color:  #33383b;
 	border-radius: 2px;
 
@@ -220,9 +142,51 @@ h2{
 	text-align: center;
 	line-height: 35px;
 
-	margin-right: 3px;
-	margin-bottom: 5px;
+	margin-left: 3px;
 }
 
+/* Mobile Media Queries */
+@media (max-width: 900px) {
+  .top-text {
+    margin-top: 60px;
+  }
+}
 
+@media (max-width: 500px) {
+  .top-text {
+    margin-top: 60px;
+  }
+}
 
+@media (max-width: 500px) {
+  .top-text {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 800px) {
+  .middle-content{
+    height: 600px;
+  }
+}
+
+.middle-content{ 
+	background-color: #CFC3F5;
+	height: 400px;
+	padding: 150px;
+	color: white;
+}
+.bottom-content{ 
+	margin-top: 50px;
+
+}
+
+.fa-4x{ 
+	color: white;
+}
+
+@media (max-width: 800px) {
+  .middle-content{
+		height: 600px;
+		padding-top: 50px;
+  }
+}
