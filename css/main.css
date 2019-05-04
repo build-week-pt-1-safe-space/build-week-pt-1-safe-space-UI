@@ -11,8 +11,14 @@ body {
 	}
 	h1{
 		font-family: 'Poppins', sans-serif;
-		font-weight: bold;
+		font-weight: 700;
+		color: whitesmoke;
 	}
+
+	h5{ 
+		font-weight: 800;
+	}
+	
 .bg-main{ 
     background-color: #448AF1;
 }
@@ -22,10 +28,10 @@ body {
 	background-color: #448AF1; 
 	padding: 20px;;
 }
-.col .top-text{ 
+.top-text{ 
     padding: 50px;
     border-radius:5px;
-    color: white;
+    color: whitesmoke;
 		width: 70%;
 }
 
@@ -87,6 +93,21 @@ h2{
 	margin-top:50px;
 	height:600px;
 	font-size: 12px;
+}
+
+.middle-content{ 
+	background-color: #CFC3F5;
+	height: 400px;
+	padding: 150px;
+	color: white;
+}
+.bottom-content{ 
+	margin-top: 50px;
+
+}
+
+.fa-4x{ 
+	color: white;
 }
 
 .footer-distributed{
@@ -163,30 +184,11 @@ h2{
     margin-top: 60px;
   }
 }
-@media (max-width: 800px) {
-  .middle-content{
-    height: 600px;
-  }
-}
 
-.middle-content{ 
-	background-color: #CFC3F5;
-	height: 400px;
-	padding: 150px;
-	color: white;
-}
-.bottom-content{ 
-	margin-top: 50px;
-
-}
-
-.fa-4x{ 
-	color: white;
-}
 
 @media (max-width: 800px) {
   .middle-content{
-		height: 600px;
+		height: 700px;
 		padding-top: 50px;
   }
 }
