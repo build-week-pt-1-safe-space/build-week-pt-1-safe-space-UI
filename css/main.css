@@ -1,0 +1,194 @@
+
+body {
+    padding-top: 80px;
+		overflow-x: hidden;
+		font-family: 'Poppins', sans-serif;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 50px;
+    }
+	}
+	h1{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 700;
+		color: whitesmoke;
+	}
+
+	h5{ 
+		font-weight: 800;
+	}
+	
+.bg-main{ 
+    background-color: #448AF1;
+}
+
+/*top content*/
+.top-content{ 
+	background-color: #448AF1; 
+	padding: 20px;;
+}
+.top-text{ 
+    padding: 50px;
+    border-radius:5px;
+    color: whitesmoke;
+		width: 70%;
+}
+
+.top-button{ 
+    margin:10px;
+}
+
+/*middle content*/
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid  #212f3d;
+}
+
+.mid-content img{ 
+	height: 100%;
+	
+}
+
+
+.mid-content h5{
+	padding-top:50px;
+}
+.mid-content p{ 
+	height: 100%;
+	width:60%;
+	margin:0 auto;
+	
+}
+.jumbotron {
+  background-image: url("../img/best-team-page.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #F1F9FE;
+	padding: 19%;
+  
+}
+
+.card{ 
+	width: 250px;
+	margin: 0 auto;
+	margin-bottom: 10px; 
+}
+
+.team-page{ 
+	background-color: #F1F9FE;
+}
+
+.bottom-row{ 
+	padding-top:30px;
+}
+
+.card-blog{
+	margin-top:50px;
+	height:600px;
+	font-size: 12px;
+}
+
+.middle-content{ 
+	background-color: #CFC3F5;
+	height: 400px;
+	padding: 150px;
+	color: white;
+}
+.bottom-content{ 
+	margin-top: 50px;
+
+}
+
+.fa-4x{ 
+	color: white;
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* Mobile Media Queries */
+@media (max-width: 900px) {
+  .top-text {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-text {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-text {
+    margin-top: 60px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .middle-content{
+		height: 700px;
+		padding-top: 50px;
+  }
+}
